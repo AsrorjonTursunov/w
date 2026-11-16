@@ -1,0 +1,43 @@
+.popular-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin: 48px 0 36px;
+}
+
+.popular-card {
+  display: grid;
+  grid-template-columns: 90px minmax(0, 1fr);
+  align-items: start;
+  gap: 16px;
+}
+
+.popular-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+.popular-number {
+  display: block;
+  color: #c5c6ce;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.popular-card h2 {
+  margin: 8px 0 5px;
+  color: #00001a;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.popular-card p {
+  margin: 0;
+  color: #5d5f79;
+  font-size: 14px;
+  line-height: 1.6;
+}
